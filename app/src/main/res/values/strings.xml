@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Flutte</string>
+    <string name="welcomeMessage">Welcome!</string>
+
+    <string name="nickname">Nickname</string>
+    <string name="fname">Name</string>
+    <string name="sname">Surname</string>
+    <string name="email">example@gmail.com</string>
+    <string name="title">Log In Now!</string>
+    <string name="regTitle">Become a member</string>
+    <string name="passwd1">Input your password here</string>
+    <string name="passwd2">Repeat your password</string>
+    <string name="btnReg">Sign up!</string>
+    <string name="btnLogIn">Log In!</string>
+    <string name="logNow">Already Have Account?</string>
+    <string name="recievermessage">Hello </string>
+    <string name="regscreen">Go</string>
+    <string name="media_title_hint">Заголовок</string>
+    <string name="media_description_text">Описание</string>
+    <string name="add_button_text">Добавить</string>
+    <string name="media_image_description">Image description</string>
+    <string name="default_user_email">user.default@mail.com</string>
+    <string name="default_user_password">useruseruser</string>
+    <string name="LogToReg">Register Now!</string>
+    <string name="Username">Roman Razdorov</string>
+    <string name="btnSending">Send</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

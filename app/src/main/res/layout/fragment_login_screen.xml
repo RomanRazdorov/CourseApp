@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/custom"
+    tools:context=".UI.View.LoginScreenFragment">
+
+    <TextView
+        android:id="@+id/loginScr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/title"
+        android:textColorHint="@color/white"
+        android:textSize="54dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        android:textSize="@dimen/textSize"
+        android:textColorHint="@color/white"
+        android:padding="@dimen/fieldSize"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:padding="@dimen/fieldSize"
+        android:hint="@string/passwd1"
+        android:textSize="@dimen/textSize"
+        android:gravity="center">
+    </EditText>
+
+    <!--Do the password check ?(passwd1 == passwd2)-->
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/purple_700"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/btnLogIn"
+        android:textSize="@dimen/textSize" />
+
+    <TextView
+        android:id="@+id/btnLogToReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LogToReg"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSize"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/logPicture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/fieldSize"
+        android:src="@drawable/flutte" />
+
+</LinearLayout>
